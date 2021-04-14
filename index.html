@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="/assets/images/logo.png" />
+    <title>Samikshya Satpathy | Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <img src="/assets/images/logo.jpg" alt="">
+        </div>
+        <ul id="navlinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id ="header">
+        <div class="header-text-container">
+            <h1>Hi, I am Samikshya Satpathy</h1>
+            <h3>I love to design, click and create.</h3>
+            <button onclick="location.href='about.html';">More...</button>
+            <div class="ui-element-1">
+                <div class ="one"></div>
+                <div class ="two"></div>
+            </div>
+        </div>
+        <div class="header-img">
+            <img src="/assets/images/2.jpg" alt="">
+        </div>
+    </section>
+    
+    <section id ="work">
+        <h1>My Work</h1>
+        <div class="work-container" >
+            <div class="work-item" data-aos="fade-down"
+            data-aos-duration="1200"
+            data-aos-offset="300">
+                <img class ="work-img" src="/assets/images/work1.jpeg" alt="">
+                <a href="articles.html"><div class="work-overlay">
+                    <h3>Article</h3>
+                </div></a>
+            </div>
+            
+            <div class="work-item" data-aos="fade-up"
+            data-aos-duration="1200"
+            data-aos-offset="300">
+                <img class ="work-img" src="/assets/images/work-2.jpeg" alt="">
+                <a href="photography.html"><div class="work-overlay">
+                    <h3>Photography</h3>
+                </div></a>
+            </div>
+            <div class="work-item" data-aos="fade-down"
+            data-aos-duration="1200"
+            data-aos-offset="300">
+                <img class ="work-img" src="/assets/images/work-3.jpeg" alt="">
+                <a href="graphicdesign.html"><div class="work-overlay">
+                    <h3>Graphic Designing</h3>
+                </div></a>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact">
+        <div class="contact-text">
+            <h2>want to work with me?</h2>
+            <h3>Write a message, give me a call and we'll grab a coffee to talk about your project.</h3>
+        </div>
+        <div class="socialmedia" data-aos="fade-left"
+        data-aos-duration="1200"
+        data-aos-offset="300">
+            <div class="sociallinks" >
+                <img src="/assets/icons/email.png" alt="">
+                <a>samikshya109@gmail.com</a>
+            </div>
+            <div class="sociallinks">
+                <img src="/assets/icons/linkedin-logo.png" alt="">
+                <a href="https://www.linkedin.com/in/samikshya-satpathy-2186231b0/">LinkedIn</a>
+            </div>
+            <div class="sociallinks">
+                <img src="/assets/icons/instagram.png" alt="">
+                <a href="https://instagram.com/_.sami_x_arts._?igshid=13u2dl4mgclx0">._sami_x_arts_.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made with love by Samikshya Satpathy</p>
+        <p>© 2021 | All Rights Reserved</p>
+    </footer>
+    <div class="nav-btn-container">
+        <a href="#header">
+        <img src="/assets/icons/up-arrow.png" alt="">
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]', { speed: 800 });
+    </script>
+</body>
+</html>
